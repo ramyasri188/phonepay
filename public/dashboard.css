@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff3e0;
+}
+
+/* Header */
+.header {
+    background: white;
+    padding: 15px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #ddd;
+}
+
+/* Logo */
+.logo-area h2 {
+    margin: 0;
+    color: #ff6f00; /* Orange */
+}
+
+.logo-area p {
+    margin: 0;
+    font-size: 13px;
+    color: gray;
+}
+
+/* User */
+.user-area {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logout-btn {
+    background: #ff3d00;
+    color: white;
+
+    border: none;
+    padding: 6px 12px;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Main */
+.main-container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+/* Wallet */
+.wallet-box {
+    background: white;
+
+    padding: 25px;
+    border-radius: 10px;
+
+    text-align: center;
+
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+
+    margin-bottom: 25px;
+}
+
+.wallet-box h1 {
+    color: #ff6f00; /* Orange */
+}
+
+/* Buttons */
+.add-btn {
+    background: #ff9800;
+    color: white;
+
+    border: none;
+    padding: 8px 15px;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Send Box */
+.send-box {
+    background: white;
+
+    padding: 25px;
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Send Button */
+.send-btn {
+    background: #4caf50; /* Green */
+    color: white;
+
+    border: none;
+    margin-top: 20px;
+
+    padding: 12px;
+    border-radius: 6px;
+
+    cursor: pointer;
+}

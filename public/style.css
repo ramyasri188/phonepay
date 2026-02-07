@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    /* Orange Background */
+    background: linear-gradient(135deg, #ff9800, #ff5722);
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Card */
+.container {
+    background: white;
+    width: 360px;
+    padding: 35px 30px;
+
+    border-radius: 12px;
+    border: 1px solid #ddd;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    color: #ff6f00;   /* Orange */
+    margin-bottom: 5px;
+}
+
+.college {
+    color: gray;
+    font-size: 14px;
+}
+
+/* Heading */
+h2 {
+    margin: 20px 0;
+}
+
+/* Form */
+form {
+    text-align: left;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 11px;
+
+    margin: 8px 0 16px;
+
+    border-radius: 6px;
+    border: 1px solid #ccc;
+
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ff6f00; /* Orange */
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+
+    /* Orange Button */
+    background: linear-gradient(135deg, #ff9800, #ff5722);
+
+    border: none;
+    border-radius: 6px;
+
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Links */
+.register-link,
+.login-link {
+    margin-top: 18px;
+}
+
+.register-link a,
+.login-link a {
+    color: #ff6f00; /* Orange */
+    text-decoration: none;
+    font-weight: bold;
+}
